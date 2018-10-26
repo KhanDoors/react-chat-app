@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MessageList from "./components/MessageList";
 
 import "./App.css";
 
@@ -6,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Let's have some fun!</h1>
+        <MessageList />
       </div>
     );
   }
