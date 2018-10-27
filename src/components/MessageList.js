@@ -21,7 +21,7 @@ class MessageList extends Component {
       <div className="message-list">
         {Dummy_Data.map((message, index) => {
           return (
-            <div className="message">
+            <div key={index} className="message">
               <div className="message-username">{message.senderId}</div>
               <div className="message-text">{message.text}</div>
             </div>
